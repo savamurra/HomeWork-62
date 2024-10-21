@@ -10,7 +10,7 @@ const MovieItem: React.FC<ItemProps> = ({ movieCard }) => {
   return (
     <div className="contentRender">
       {movieCard.map((movie) => (
-        <Movie key={movie.id} movies={movie} />
+        <Movie key={movie.id + movie.title} movies={movie} />
       ))}
     </div>
   );
