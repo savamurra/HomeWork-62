@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin: -10px 0 0 0;
+  padding: 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.headerMiddle {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  width: 90px;
+}
+
+.header-info {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #eee;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.search-btn {
+  border: none;
+  padding: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+input {
+  width: 200px;
+  padding: 4px 5px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+}
