@@ -6,42 +6,25 @@ const Sidebar = () => {
     <nav>
       <ul className="aside">
         <li>
-          <NavLink
-            to="/"
-            className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
-            }
-          >
+          <NavLink to="/">
             Онлайн Кинотеатр
           </NavLink>
         </li>
         <li>
           <NavLink
             to="/serial"
-            className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
-            }
           >
             Сериалы
           </NavLink>
         </li>
         <li>
-          <NavLink
-            to="/cartoon"
-            className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
-            }
-          >
+          <NavLink to="/cartoon">
             Мультфильмы
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="/portfolio"
-            className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
-            }
-          >
+            to="/portfolio">
             Мои работы
           </NavLink>
         </li>
