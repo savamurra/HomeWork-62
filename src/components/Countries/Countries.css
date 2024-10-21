@@ -1,0 +1,7 @@
+.countryTitle {
+  margin: 12px;
+  cursor: pointer;
+}
+.countryTitle:hover {
+  text-decoration: underline;
+}
