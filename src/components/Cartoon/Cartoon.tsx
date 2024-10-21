@@ -1,5 +1,5 @@
-import ToolBar from '../../components/ToolBar/ToolBar.tsx';
-import Sidebar from '../../components/Sidebar/Sidebar.tsx';
+import ToolBar from '../ToolBar/ToolBar.tsx';
+import Sidebar from '../Sidebar/Sidebar.tsx';
 import CartoonItem from './CartoonItem.tsx';
 
 
