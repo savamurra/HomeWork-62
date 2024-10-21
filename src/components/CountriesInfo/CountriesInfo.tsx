@@ -52,7 +52,7 @@ const CountriesInfo: React.FC<Props> = ({ alphaCode }) => {
           />
         </div>
         <div className="countryBody">
-          <p>Capital: {countries.capital ? countries.capital : 'No capital'}</p>
+          <p>Capital: {countries.capital ? countries.capital : "No capital"}</p>
           <p>Population: {countries.population}</p>
           <p>Region: {countries.region}</p>
           <p>Subregion: {countries.subregion}</p>

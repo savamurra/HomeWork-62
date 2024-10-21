@@ -1,15 +1,15 @@
-import * as React from 'react';
-import './Attempts.css';
+import * as React from "react";
+import "./Attempts.css";
 interface Attempts {
-    count: number;
+  count: number;
 }
 
-const Attempts: React.FC<Attempts> = ({count}) => {
-    return (
-        <div style={{width: 'max-content',  margin: 'auto'}}>
-            <p>КОЛИЧЕСТВО ПОПЫТОК: {count}</p>
-        </div>
-    );
+const Attempts: React.FC<Attempts> = ({ count }) => {
+  return (
+    <div style={{ width: "max-content", margin: "auto" }}>
+      <p>КОЛИЧЕСТВО ПОПЫТОК: {count}</p>
+    </div>
+  );
 };
 
 export default Attempts;

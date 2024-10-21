@@ -1,19 +1,19 @@
-import ToolBar from '../../components/ToolBar/ToolBar.tsx';
-import Sidebar from '../../components/Sidebar/Sidebar.tsx';
-import { MovieProps } from '../../types';
-import * as React from 'react';
+import ToolBar from "../../components/ToolBar/ToolBar.tsx";
+import Sidebar from "../../components/Sidebar/Sidebar.tsx";
+import { MovieProps } from "../../types";
+import * as React from "react";
 
 interface Props {
-  movies: MovieProps[]
+  movies: MovieProps[];
 }
 
-const Cartoons:React.FC<Props> = ({movies}) => {
+const Cartoons: React.FC<Props> = ({ movies }) => {
   return (
     <div>
-      <ToolBar/>
-      <div className='main'>
-        <Sidebar/>
-        <Cartoons movies={movies}/>
+      <ToolBar />
+      <div className="main">
+        <Sidebar />
+        <Cartoons movies={movies} />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-.aside{
+.aside {
   position: sticky;
   top: 10px;
   list-style: none;
@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-.aside li{
+.aside li {
   margin: 20px 0;
   padding: 10px 5px;
   background-color: #eee;
@@ -14,13 +14,13 @@
   text-align: center;
 }
 
-.aside a{
+.aside a {
   color: black;
   padding: 10px 0;
   text-decoration: none;
 }
 
-.active{
+.active {
   font-size: 18px;
   font-weight: 600;
 }

@@ -1,10 +1,11 @@
-button{
-    padding: 10px 20px;
-    border: none;
-    background: cadetblue;
-    cursor: pointer;
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  background: cadetblue;
+  cursor: pointer;
 }
 
-button:hover{
-    scale: 1.1;
+button:hover {
+  scale: 1.1;
 }

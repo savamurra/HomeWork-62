@@ -1,26 +1,50 @@
-import './Sidebar.css';
-import { NavLink } from 'react-router-dom';
+import "./Sidebar.css";
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
     <nav>
       <ul className="aside">
-        <li><NavLink to="/" className={({isActive, isPending}) =>
-          isPending ? 'pending' : isActive ? 'active' : ''
-        }>Онлайн Кинотеатр
-        </NavLink></li>
-        <li><NavLink to="/serial" className={({isActive, isPending}) =>
-          isPending ? 'pending' : isActive ? 'active' : ''
-        }>Сериалы
-        </NavLink></li>
-        <li><NavLink to="/cartoon" className={({isActive, isPending}) =>
-          isPending ? "pending" : isActive ? "active" : ""
-        }>Мультфильмы
-        </NavLink></li>
-        <li><NavLink to="/portfolio" className={({isActive, isPending}) =>
-          isPending ? "pending" : isActive ? "active" : ""
-        }>Мои работы
-        </NavLink></li>
+        <li>
+          <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            Онлайн Кинотеатр
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/serial"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            Сериалы
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/cartoon"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            Мультфильмы
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/portfolio"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            Мои работы
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );

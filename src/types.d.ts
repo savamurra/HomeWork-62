@@ -32,7 +32,7 @@ export interface APIOneCountry {
 }
 
 export interface IProps {
-  hasItem: boolean
+  hasItem: boolean;
   clicked: boolean;
   id: string;
 }

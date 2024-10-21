@@ -1,16 +1,16 @@
-import { MovieProps } from '../../types';
-import * as React from 'react';
-import Movie from './MovieItem.tsx';
+import { MovieProps } from "../../types";
+import * as React from "react";
+import Movie from "./MovieItem.tsx";
 
 interface ItemProps {
-  movieCard: MovieProps[]
+  movieCard: MovieProps[];
 }
 
-const MovieItem: React.FC<ItemProps> = ({movieCard}) => {
+const MovieItem: React.FC<ItemProps> = ({ movieCard }) => {
   return (
-    <div className='contentRender'>
+    <div className="contentRender">
       {movieCard.map((movie) => (
-        <Movie key={movie.id} movies={movie}/>
+        <Movie key={movie.id} movies={movie} />
       ))}
     </div>
   );
