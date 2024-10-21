@@ -1,7 +1,6 @@
 import { MovieProps } from '../../types';
 import * as React from 'react';
 import Movie from './MovieItem.tsx';
-import './Movie.css';
 
 interface ItemProps {
   movieCard: MovieProps[]
