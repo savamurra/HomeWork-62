@@ -5,7 +5,7 @@ const ToolBar = () => {
   const logon = "https://dynamic.design.com/asset/logo/930237d4-5e82-49da-82ec-3568955dbbc7/logo-search-grid-2x?logoTemplateVersion=1&v=638585330670630000&text=Movie+"
   return (
     <header className="header">
-      <a href="#"><img src={logon} alt='logo' className="logo"/></a>
+      <NavLink to='/'><img src={logon} alt='logo' className="logo"/></NavLink>
       <div className="headerMiddle">
         <NavLink className="header-info" to='/'>Бестселлеры</NavLink>
         <NavLink className="header-info" to='/'>Каталог</NavLink>

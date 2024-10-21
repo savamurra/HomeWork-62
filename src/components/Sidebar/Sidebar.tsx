@@ -1,14 +1,22 @@
 import './Sidebar.css';
+import { NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
     <nav>
       <ul className="aside">
-        <li><a href="#">Онлайн Кинотеатр</a></li>
-        <li><a href="#" className="current">Фильмы</a></li>
-        <li><a href="#">Сериалы</a></li>
-        <li><a href="#">Телеканалы</a></li>
-        <li><a href="#">Спорт</a></li>
+        <li><NavLink to="/"  className={({isActive, isPending}) =>
+          isPending ? 'pending' : isActive ? 'active' : ''
+        }>Онлайн Кинотеатр
+        </NavLink></li>
+        <li><NavLink to="/serial" className={({isActive, isPending}) =>
+          isPending ? 'pending' : isActive ? 'active' : ''
+        }>Сериалы
+        </NavLink></li>
+        <li><NavLink to="/cartoon" className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "active" : ""
+        }>Мультфильмы
+        </NavLink></li>
       </ul>
     </nav>
   );
